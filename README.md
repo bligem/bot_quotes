@@ -9,3 +9,7 @@ Bot_quotes posiada dwie komendy z statycznym prefixem uwu :
 1. witaj - zwraca wiadomość powitalną.
 2. quotes - zwraca randomowy cytat który zawiera serial z którego pochodzi postać która go wypowiedziała oraz treść cytatu.
 3. random_anime - zwraca losowo wybrany tytuł anime.
+
+
+***
+Repozytorium dla bezpieczeństwa nie zawiera pliku .env ze zmiennymi środowiskowymi TOKEN oraz MONGODB_URL
