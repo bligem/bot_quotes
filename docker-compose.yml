@@ -1,0 +1,18 @@
+version: '3.9'
+services:
+  mongo_db:
+    container_name: db_container
+    image: mongo:latest
+    restart: always
+    # volumes:
+    #   - mongo_db:/data/my_db
+  #node
+  node:
+    build: .
+    environment:
+      MONGODB_URL: mongodb://db_container:27017
+    depends_on:
+      - mongo_db
+
+volumes:
+  mongodb:
