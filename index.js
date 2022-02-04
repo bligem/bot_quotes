@@ -80,7 +80,7 @@ client.on('messageCreate', message => {
               return Math.floor(Math.random() * (max - min)) + min;
             }
             console.log(doc);
-
+							var random = rng(0, doc-1);
             const exampleEmbed = {
           color: 0x0099ff,
           title: 'Anime:',
@@ -88,15 +88,15 @@ client.on('messageCreate', message => {
             name: 'Random Anime Quote',
             icon_url: 'https://i.imgur.com/0dqdq3m.jpeg',
           },
-          description: result[rng(0, doc-1)].anime,
+          description: result[random].anime,
           fields: [
             {
               name: 'Character',
-              value: result[rng(0, doc-1)].character,
+              value: result[random].character,
             },
             {
               name: 'Quote',
-              value: result[rng(0, doc-1)].quote,
+              value: result[random].quote,
             },
           ],
         };
