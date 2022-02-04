@@ -12,4 +12,4 @@ Bot_quotes posiada dwie komendy z statycznym prefixem uwu :
 
 
 ***
-Repozytorium dla bezpieczeństwa nie zawiera pliku .env ze zmiennymi środowiskowymi TOKEN oraz MONGODB_URL
+Repozytorium dla bezpieczeństwa nie zawiera pliku .env ze zmiennymi środowiskowymi TOKEN (token bota do discord) oraz MONGODB_URL
